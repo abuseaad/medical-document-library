@@ -1,0 +1,187 @@
+/* ============================================================
+   Document Library — styles
+   Namespaced under #library / .doc-card / .topic-section so it
+   won't collide with your existing css/style.css. Uses its own
+   :root variables with fallbacks so it looks right even if this
+   is the only stylesheet loaded on the page.
+   ============================================================ */
+
+:root {
+  --lib-bg: #0f1115;
+  --lib-panel: #161922;
+  --lib-panel-alt: #1c2029;
+  --lib-border: #2a2f3a;
+  --lib-text: #e8eaf0;
+  --lib-text-dim: #9aa1b1;
+  --lib-accent: #4f8cff;
+  --lib-accent-dim: #2c4a86;
+  --lib-radius: 10px;
+}
+
+body {
+  background: var(--lib-bg);
+  color: var(--lib-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.library-hero {
+  padding: 48px 20px 20px;
+  text-align: center;
+}
+.library-hero h1 { margin: 0 0 8px; font-size: clamp(22px, 4vw, 32px); }
+.library-hero p { color: var(--lib-text-dim); max-width: 600px; margin: 0 auto; line-height: 1.5; }
+
+.library-toolbar {
+  max-width: 960px;
+  margin: 24px auto 0;
+  padding: 0 20px;
+}
+
+.library-toolbar input[type="search"] {
+  width: 100%;
+  background: var(--lib-panel);
+  border: 1px solid var(--lib-border);
+  color: var(--lib-text);
+  padding: 12px 16px;
+  border-radius: 999px;
+  font-size: 14px;
+}
+.library-toolbar input[type="search"]:focus {
+  outline: none;
+  border-color: var(--lib-accent);
+}
+
+.library-status {
+  display: none;
+  max-width: 960px;
+  margin: 16px auto 0;
+  padding: 12px 16px;
+  border-radius: var(--lib-radius);
+  background: #3a2020;
+  border: 1px solid #6b2b2b;
+  color: #ffd7d7;
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+.library-status code {
+  background: rgba(0, 0, 0, 0.25);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+#library {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+}
+
+.topic-section { margin-bottom: 32px; }
+
+.topic-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid var(--lib-border);
+  padding-bottom: 8px;
+}
+.topic-heading h2 { margin: 0; font-size: 18px; }
+.topic-count { color: var(--lib-text-dim); font-size: 12.5px; }
+
+.doc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.doc-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--lib-panel);
+  border: 1px solid var(--lib-border);
+  border-radius: var(--lib-radius);
+  padding: 16px 18px;
+  text-decoration: none;
+  color: var(--lib-text);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+.doc-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--lib-accent);
+}
+
+.doc-card-top { display: flex; }
+
+.doc-type-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: var(--lib-panel-alt);
+  color: var(--lib-text-dim);
+}
+.doc-type-badge svg { width: 13px; height: 13px; }
+.doc-type-badge.doc-type-pdf { color: #ff8a8a; }
+.doc-type-badge.doc-type-ppt,
+.doc-type-badge.doc-type-pptx { color: #ffb454; }
+
+.doc-title { margin: 0; font-size: 15.5px; line-height: 1.35; }
+
+.doc-desc {
+  margin: 0;
+  font-size: 13px;
+  color: var(--lib-text-dim);
+  line-height: 1.5;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.doc-open {
+  margin-top: 4px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--lib-accent);
+}
+
+/* Wraps a .doc-card when a document also has a downloadable original
+   (e.g. a PPT/PPTX with an auto-generated PDF preview) — keeps the
+   card itself a normal grid item while adding a small link below it. */
+.doc-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.doc-card-wrapper .doc-card { flex: 1; }
+
+.doc-download-original {
+  font-size: 11.5px;
+  color: var(--lib-text-dim);
+  text-decoration: none;
+  text-align: center;
+  padding: 4px 0;
+}
+.doc-download-original:hover {
+  color: var(--lib-accent);
+  text-decoration: underline;
+}
+
+.empty-state {
+  text-align: center;
+  color: var(--lib-text-dim);
+  padding: 40px 0;
+}
+
+@media (max-width: 560px) {
+  .library-hero { padding: 32px 16px 12px; }
+  #library { padding: 16px 14px 40px; }
+  .doc-grid { grid-template-columns: 1fr; }
+}
