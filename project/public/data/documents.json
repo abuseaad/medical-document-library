@@ -1,4 +1,26 @@
 [
+   {
+    "id": "nicu-case",
+    "fileName": "3.1 NEONATAL RESP.DISTRESS.  B.pptx",
+    "title": "NICU case",
+    "description": "RDS MAS TTN",
+    "category": "NICU",
+    "filePath": "documents/nicu-case/3.1 NEONATAL RESP.DISTRESS.  B.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-11",
+    "previewPath": "documents/nicu-case/3.1 NEONATAL RESP.DISTRESS.  B.pdf"
+  },
+  {
+    "id": "cvs-by-dr-gamachu",
+    "fileName": "CONGENITDAL HEART DISEASE (CHD).pptx",
+    "title": "CVS by DR Gamachu",
+    "description": "CHD",
+    "category": "Cardiology",
+    "filePath": "documents/cvs-by-dr-gamachu/CONGENITDAL HEART DISEASE (CHD).pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-12"
+  },
+ 
   {
     "id": "agn-nephrotic-uti",
     "fileName": "3-_AGN__Nephrotic___UTI_Dr__Gemechu.ppt",
@@ -65,14 +87,14 @@
     "previewPath": "documents/sam/8 SAM Ali.pdf"
   },
   {
-    "id": "nicu-case",
-    "fileName": "3.1 NEONATAL RESP.DISTRESS.  B.pptx",
-    "title": "NICU case",
-    "description": "RDS MAS TTN",
+    "id": "dr-tesfa-neonatal-problems",
+    "fileName": "Dr, Tesfa Neonatal Problems and Dss..pdf",
+    "title": "Dr Tesfa Neonatal problems",
+    "description": "NEC",
     "category": "NICU",
-    "filePath": "documents/nicu-case/3.1 NEONATAL RESP.DISTRESS.  B.pptx",
-    "fileType": "pptx",
-    "dateAdded": "2026-09-11",
-    "previewPath": "documents/nicu-case/3.1 NEONATAL RESP.DISTRESS.  B.pdf"
+    "filePath": "documents/dr-tesfa-neonatal-problems/Dr, Tesfa Neonatal Problems and Dss..pdf",
+    "fileType": "pdf",
+    "dateAdded": "2026-09-12"
   }
+  
 ]
