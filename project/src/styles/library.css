@@ -169,17 +169,12 @@ body {
 .doc-status-dot {
   position: absolute;
   top: 10px;
-  left: 10px;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  border: 2px solid var(--lib-panel);
-  background: var(--lib-border);
-  cursor: pointer;
+  right: 10px;
+  left: auto;
+  width:30px;
+  height: 17px;
+  border-radius: 4px;
   z-index: 5;
-  padding: 0;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4);
-  transition: transform 0.1s ease, background 0.15s ease;
 }
 .doc-status-dot:hover { transform: scale(1.2); }
 .doc-status-dot.doc-status-none { background: var(--lib-border); }

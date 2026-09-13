@@ -150,5 +150,16 @@
     "fileType": "pptx",
     "dateAdded": "2026-09-13",
     "previewPath": "documents/dka/DKA management seminar C-II.pdf"
+  },
+  {
+    "id": "acquired-heart-disease-anemia",
+    "fileName": "13 Acquired heart diseases August 2024.pptx",
+    "title": "Acquired heart disease & Anemia",
+    "description": "Dr Solomon",
+    "category": "ER OPD & WARD",
+    "filePath": "documents/acquired-heart-disease-anemia/13 Acquired heart diseases August 2024.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-13",
+    "previewPath": "documents/acquired-heart-disease-anemia/13 Acquired heart diseases August 2024.pdf"
   }
 ]
