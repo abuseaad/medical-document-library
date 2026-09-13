@@ -87,10 +87,9 @@ function App() {
             ← Back
           </button>
           <h1>Pediatrics</h1>
-          <p>
-            Original PDFs and PowerPoint files, organized by topic. Click any
-            document to open the original file.
-          </p>
+     <p className="doc-instructions">
+  Tap a card to open and read the file, or use "Download original" to save it.
+</p>
         </header>
         <div className="library-toolbar">
           <input
