@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { getStatus, nextStatus } from "../utils/docStatus";
 
 const TYPE_META = {
   pdf: { label: "PDF", icon: "file" },
@@ -31,9 +32,24 @@ function DocumentCard({ document }) {
   };
   const openTarget = document.previewPath || document.filePath;
 
+  const [status, setStatus] = useState(() => getStatus(document.id));
+
+  function handleStatusClick(event) {
+    event.preventDefault();
+    event.stopPropagation();
+    setStatus(nextStatus(document.id));
+  }
+
   return (
     <div className="doc-card-wrapper">
-      <a className="doc-card" href={`/${openTarget}`} target="_blank" rel="noopener noreferrer">
+      <button
+        type="button"
+        className={`doc-status-dot doc-status-${status}`}
+        onClick={handleStatusClick}
+        title="Click to change status: not set, read today, already read, urgent"
+        aria-label="Toggle document status"
+      />
+      <a className={`doc-card doc-card-status-${status}`} href={`/${openTarget}`} target="_blank" rel="noopener noreferrer">
         <div className="doc-card-top">
           <span className={`doc-type-badge doc-type-${fileType}`}>
             <FileIcon type={meta.icon} />
@@ -46,12 +62,7 @@ function DocumentCard({ document }) {
           {document.previewPath ? "Open preview" : `Open original ${meta.label}`} →
         </div>
       </a>
-      <a
-        className="doc-download-original"
-        href={`/${document.filePath}`}
-        download={document.fileName}
-        aria-label={`Download original ${document.title || document.fileName}`}
-      >
+      <a className="doc-download-original" href={`/${document.filePath}`} download={document.fileName} aria-label={`Download original ${document.title || document.fileName}`}>
         Download original {meta.label}
       </a>
     </div>
