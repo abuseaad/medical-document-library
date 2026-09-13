@@ -353,6 +353,12 @@ body {
   font-weight: 600;
 }
 
+@media (max-width: 600px) {
+  .site-title {
+    font-size: 13px;
+  }
+}
+
 .site-footer {
   text-align: center;
   padding: 18px 20px;
