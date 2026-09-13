@@ -1,10 +1,19 @@
 import React, { useState } from "react";
 import { getStatus, nextStatus } from "../utils/docStatus";
 
+function isMobileDevice() {
+  return /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
+}
+
 function buildViewerUrl(path) {
   const absoluteUrl = `${window.location.origin}/${path}`;
   return `https://docs.google.com/viewer?url=${encodeURIComponent(absoluteUrl)}&embedded=true`;
 }
+
+function getOpenUrl(path) {
+  return isMobileDevice() ? buildViewerUrl(path) : `/${path}`;
+}
+
 const TYPE_META = {
   pdf: { label: "PDF", icon: "file" },
   ppt: { label: "PPT", icon: "presentation" },
@@ -35,7 +44,7 @@ function DocumentCard({ document }) {
     icon: "file",
   };
   const openTarget = document.previewPath || document.filePath;
-  const viewerUrl = buildViewerUrl(openTarget);
+  const viewerUrl = getOpenUrl(openTarget);
 
   const [status, setStatus] = useState(() => getStatus(document.id));
 
@@ -54,7 +63,7 @@ function DocumentCard({ document }) {
         title="Click to change status: not set, read today, already read, urgent"
         aria-label="Toggle document status"
       />
-   <a className={`doc-card doc-card-status-${status}`} href={viewerUrl} target="_blank" rel="noopener noreferrer">
+      <a className={`doc-card doc-card-status-${status}`} href={viewerUrl} target="_blank" rel="noopener noreferrer">
         <div className="doc-card-top">
           <span className={`doc-type-badge doc-type-${fileType}`}>
             <FileIcon type={meta.icon} />
