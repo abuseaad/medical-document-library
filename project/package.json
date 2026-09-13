@@ -9,7 +9,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "add-doc": "node scripts/add-document.js",
-    "rebuild-previews": "node scripts/rebuild-previews.js"
+    "rebuild-previews": "node scripts/rebuild-previews.js",
+    "fix-previews": "node scripts/backfill-previews.cjs"
   },
   "dependencies": {
     "express": "^4.19.2",

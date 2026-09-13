@@ -18,7 +18,8 @@
     "category": "ER OPD & WARD",
     "filePath": "documents/cvs-by-dr-gamachu/CONGENITDAL HEART DISEASE (CHD).pptx",
     "fileType": "pptx",
-    "dateAdded": "2026-09-12"
+    "dateAdded": "2026-09-12",
+    "previewPath": "previews/cvs-by-dr-gamachu/CONGENITDAL HEART DISEASE (CHD).pdf"
   },
   {
     "id": "dr-tesfa-neonatal-problems",
@@ -38,7 +39,8 @@
     "category": "NICU",
     "filePath": "documents/sepsis/Neonatal Sepsis by MESFIN.pptx",
     "fileType": "pptx",
-    "dateAdded": "2026-09-13"
+    "dateAdded": "2026-09-13",
+    "previewPath": "previews/sepsis/Neonatal Sepsis by MESFIN.pdf"
   },
   {
     "id": "pna",
@@ -132,7 +134,7 @@
     "id": "medstar-2nd-edition",
     "fileName": "Medstar Pediatrics - 2nd Edition.pdf",
     "title": "Medstar 2nd Edition",
-    "description":"Down sxx\nAGE",
+    "description": "Down sxx\nAGE",
     "category": "Other",
     "filePath": "documents/medstar-2nd-edition/Medstar Pediatrics - 2nd Edition.pdf",
     "fileType": "pdf",
