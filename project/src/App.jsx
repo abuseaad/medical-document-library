@@ -1,6 +1,29 @@
 import React, { useEffect, useMemo, useState } from "react";
 import DocumentCard from "./components/DocumentCard";
 
+// A fixed palette, cycled through by a hash of the category name.
+// Every category — including ones you haven't created yet — gets a
+// consistent color automatically, with zero code changes needed when
+// you type a new category into "npm run add-doc".
+const CATEGORY_COLORS = [
+  "#4f8cff", // blue
+  "#34d399", // green
+  "#f59e0b", // amber
+  "#f472b6", // pink
+  "#a78bfa", // purple
+  "#22d3ee", // cyan
+  "#fb7185", // rose
+  "#facc15", // yellow
+];
+
+function colorForCategory(category) {
+  let hash = 0;
+  for (let i = 0; i < category.length; i++) {
+    hash = (hash * 31 + category.charCodeAt(i)) >>> 0;
+  }
+  return CATEGORY_COLORS[hash % CATEGORY_COLORS.length];
+}
+
 function groupByCategory(documents) {
   const groups = new Map();
   documents.forEach((document) => {
@@ -63,8 +86,12 @@ function App() {
         {!error && documents.length > 0 && filteredDocuments.length === 0 && (
           <p className="empty-state">No documents match your search.</p>
         )}
-        {groupByCategory(filteredDocuments).map((group) => (
-          <section className="topic-section" key={group.category}>
+               {groupByCategory(filteredDocuments).map((group) => (
+          <section
+            className="topic-section"
+            key={group.category}
+            style={{ "--topic-color": colorForCategory(group.category) }}
+          >
             <div className="topic-heading">
               <h2>{group.category}</h2>
               <span className="topic-count">

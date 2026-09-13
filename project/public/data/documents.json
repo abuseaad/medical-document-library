@@ -1,5 +1,5 @@
 [
-   {
+  {
     "id": "nicu-case",
     "fileName": "3.1 NEONATAL RESP.DISTRESS.  B.pptx",
     "title": "NICU case",
@@ -15,76 +15,10 @@
     "fileName": "CONGENITDAL HEART DISEASE (CHD).pptx",
     "title": "CVS by DR Gamachu",
     "description": "CHD",
-    "category": "Cardiology",
+    "category": "ER OPD & WARD",
     "filePath": "documents/cvs-by-dr-gamachu/CONGENITDAL HEART DISEASE (CHD).pptx",
     "fileType": "pptx",
     "dateAdded": "2026-09-12"
-  },
- 
-  {
-    "id": "agn-nephrotic-uti",
-    "fileName": "3-_AGN__Nephrotic___UTI_Dr__Gemechu.ppt",
-    "title": "Acute Nephritic Syndrome, Nephrotic Syndrome & UTI",
-    "description": "Pathogenesis, clinical features, labs, treatment and prognosis of acute nephritic syndrome (APSGN & IgA nephropathy), nephrotic syndrome, and urinary tract infection in children.",
-    "category": "Nephrology",
-    "filePath": "documents/agn-nephrotic-uti/3-_AGN__Nephrotic___UTI_Dr__Gemechu.ppt",
-    "fileType": "ppt",
-    "dateAdded": "2026-09-10",
-    "previewPath": "documents/agn-nephrotic-uti/3-_AGN__Nephrotic___UTI_Dr__Gemechu.pdf"
-  },
-  {
-    "id": "nephrotic-syndrome",
-    "fileName": "NEPHROTIC_SYNDROME.pptx",
-    "title": "Nephrotic Syndrome",
-    "description": "Classification, epidemiology, pathophysiology, idiopathic (minimal lesion) nephrotic syndrome, complications and treatment in children.",
-    "category": "Nephrology",
-    "filePath": "documents/nephrotic-syndrome/NEPHROTIC_SYNDROME.pptx",
-    "fileType": "pptx",
-    "dateAdded": "2026-09-10",
-    "previewPath": "documents/nephrotic-syndrome/NEPHROTIC_SYNDROME.pdf"
-  },
-  {
-    "id": "pediatric-sepsis-management",
-    "fileName": "sepsis-guideline.pdf",
-    "title": "Pediatric Sepsis Management",
-    "description": "WHO-based approach to recognizing and treating pediatric sepsis.",
-    "category": "Sepsis",
-    "filePath": "documents/pediatric-sepsis-management/sepsis-guideline.pdf",
-    "fileType": "pdf",
-    "dateAdded": "2026-09-10"
-  },
-  {
-    "id": "lrti-4",
-    "fileName": "LRTI LEC.pptx",
-    "title": "LRTI",
-    "description": "pneumina",
-    "category": "Nephrology",
-    "filePath": "documents/lrti-4/LRTI LEC.pptx",
-    "fileType": "pptx",
-    "dateAdded": "2026-09-11",
-    "previewPath": "documents/lrti-4/LRTI LEC.pdf"
-  },
-  {
-    "id": "meningities-beyond-neonatal-age",
-    "fileName": "2Meningitis beyond the neonatal age.pptx",
-    "title": "Meningities Beyond neonatal age",
-    "description": "meningites by Dr Gamachu",
-    "category": "Nephrology",
-    "filePath": "documents/meningities-beyond-neonatal-age/2Meningitis beyond the neonatal age.pptx",
-    "fileType": "pptx",
-    "dateAdded": "2026-09-11",
-    "previewPath": "documents/meningities-beyond-neonatal-age/2Meningitis beyond the neonatal age.pdf"
-  },
-  {
-    "id": "sam",
-    "fileName": "8 SAM Ali.pptx",
-    "title": "SAM",
-    "description": "by Dr Ali",
-    "category": "Nephrology",
-    "filePath": "documents/sam/8 SAM Ali.pptx",
-    "fileType": "pptx",
-    "dateAdded": "2026-09-11",
-    "previewPath": "documents/sam/8 SAM Ali.pdf"
   },
   {
     "id": "dr-tesfa-neonatal-problems",
@@ -95,6 +29,124 @@
     "filePath": "documents/dr-tesfa-neonatal-problems/Dr, Tesfa Neonatal Problems and Dss..pdf",
     "fileType": "pdf",
     "dateAdded": "2026-09-12"
+  },
+  {
+    "id": "sepsis",
+    "fileName": "Neonatal Sepsis by MESFIN.pptx",
+    "title": "sepsis",
+    "description": "sepsis by Dr mesfin",
+    "category": "NICU",
+    "filePath": "documents/sepsis/Neonatal Sepsis by MESFIN.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-13"
+  },
+  {
+    "id": "pna",
+    "fileName": "PNA.pptx",
+    "title": "PNA",
+    "description": "Dr Tajuti",
+    "category": "NICU",
+    "filePath": "documents/pna/PNA.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-13",
+    "previewPath": "documents/pna/PNA.pdf"
+  },
+  {
+    "id": "sam-2",
+    "fileName": "8 SAM Ali.pptx",
+    "title": "SAM",
+    "description": "DR Ali",
+    "category": "ER OPD & WARD",
+    "filePath": "documents/sam-2/8 SAM Ali.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-13",
+    "previewPath": "documents/sam-2/8 SAM Ali.pdf"
+  },
+  {
+    "id": "pneumonia",
+    "fileName": "LRTI LEC.pptx",
+    "title": "Pneumonia",
+    "description": "pneumonia",
+    "category": "ER OPD & WARD",
+    "filePath": "documents/pneumonia/LRTI LEC.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-13",
+    "previewPath": "documents/pneumonia/LRTI LEC.pdf"
+  },
+  {
+    "id": "asthma",
+    "fileName": "new 0ne mgt of acute exacerbation(  ) (2).pptx",
+    "title": "Asthma",
+    "description": "seminor",
+    "category": "ER OPD & WARD",
+    "filePath": "documents/asthma/new 0ne mgt of acute exacerbation(  ) (2).pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-13",
+    "previewPath": "documents/asthma/new 0ne mgt of acute exacerbation(  ) (2).pdf"
+  },
+  {
+    "id": "meningites",
+    "fileName": "2Meningitis beyond the neonatal age.pptx",
+    "title": "Meningites",
+    "description": "Dr Gamachu",
+    "category": "ER OPD & WARD",
+    "filePath": "documents/meningites/2Meningitis beyond the neonatal age.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-13",
+    "previewPath": "documents/meningites/2Meningitis beyond the neonatal age.pdf"
+  },
+  {
+    "id": "tb",
+    "fileName": "tuberculosis med students final.pptx",
+    "title": "TB",
+    "description": "Dr Achalu",
+    "category": "ER OPD & WARD",
+    "filePath": "documents/tb/tuberculosis med students final.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-13",
+    "previewPath": "documents/tb/tuberculosis med students final.pdf"
+  },
+  {
+    "id": "diarrheal-diseas",
+    "fileName": "DIARRHEAL DISEASE.pptx",
+    "title": "Diarrheal diseas",
+    "description": "Dr Batre",
+    "category": "ER OPD & WARD",
+    "filePath": "documents/diarrheal-diseas/DIARRHEAL DISEASE.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-13",
+    "previewPath": "documents/diarrheal-diseas/DIARRHEAL DISEASE.pdf"
+  },
+  {
+    "id": "shock",
+    "fileName": "Shock Management Seminar .pptx",
+    "title": "Shock",
+    "description": "seminor",
+    "category": "ER OPD & WARD",
+    "filePath": "documents/shock/Shock Management Seminar .pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-13",
+    "previewPath": "documents/shock/Shock Management Seminar .pdf"
+  },
+  {
+    "id": "medstar-2nd-edition",
+    "fileName": "Medstar Pediatrics - 2nd Edition.pdf",
+    "title": "Medstar 2nd Edition",
+    "description":"Down sxx\nAGE",
+    "category": "Other",
+    "filePath": "documents/medstar-2nd-edition/Medstar Pediatrics - 2nd Edition.pdf",
+    "fileType": "pdf",
+    "dateAdded": "2026-09-13"
+  },
+  {
+    "id": "dka",
+    "fileName": "DKA management seminar C-II.pptx",
+    "title": "DKA",
+    "description": "seminor",
+    "category": "ER OPD & WARD",
+    "filePath": "documents/dka/DKA management seminar C-II.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-13",
+    "previewPath": "documents/dka/DKA management seminar C-II.pdf"
   }
-  
 ]

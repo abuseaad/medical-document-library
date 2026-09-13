@@ -16,6 +16,7 @@
   --lib-accent: #4f8cff;
   --lib-accent-dim: #2c4a86;
   --lib-radius: 10px;
+    --search-accent: #34d399; /* change this hex to whatever you want */
 }
 
 body {
@@ -41,7 +42,7 @@ body {
 .library-toolbar input[type="search"] {
   width: 100%;
   background: var(--lib-panel);
-  border: 1px solid var(--lib-border);
+  border: 1.5px solid var(--search-accent);
   color: var(--lib-text);
   padding: 12px 16px;
   border-radius: 999px;
@@ -49,7 +50,8 @@ body {
 }
 .library-toolbar input[type="search"]:focus {
   outline: none;
-  border-color: var(--lib-accent);
+  border-color: var(--search-accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--search-accent) 25%, transparent);
 }
 
 .library-status {
@@ -83,10 +85,10 @@ body {
   align-items: baseline;
   gap: 10px;
   margin-bottom: 14px;
-  border-bottom: 1px solid var(--lib-border);
+  border-bottom: 2px solid var(--topic-color, var(--lib-border));
   padding-bottom: 8px;
 }
-.topic-heading h2 { margin: 0; font-size: 18px; }
+.topic-heading h2 { margin: 0; font-size: 18px; color: var(--topic-color, var(--lib-text)); }
 .topic-count { color: var(--lib-text-dim); font-size: 12.5px; }
 
 .doc-grid {
@@ -139,6 +141,7 @@ body {
   color: var(--lib-text-dim);
   line-height: 1.5;
   flex: 1;
+    white-space: pre-line;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
