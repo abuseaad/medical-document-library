@@ -83,13 +83,23 @@ body {
 .topic-heading {
   display: flex;
   align-items: baseline;
+ 
   gap: 10px;
   margin-bottom: 14px;
   border-bottom: 2px solid var(--topic-color, var(--lib-border));
   padding-bottom: 8px;
 }
-.topic-heading h2 { margin: 0; font-size: 18px; color: var(--topic-color, var(--lib-text)); }
-.topic-count { color: var(--lib-text-dim); font-size: 12.5px; }
+.topic-heading h2 { 
+  /* margin: 0;  */
+  margin:auto ;
+  font-size: 18px;
+   color: whitesmoke;
+   font-size: 30px;
+    /* text-align: center; */
+   }
+.topic-count { 
+  color: var(--lib-text-dim); font-size: 12.5px;
+ }
 
 .doc-grid {
   display: grid;
