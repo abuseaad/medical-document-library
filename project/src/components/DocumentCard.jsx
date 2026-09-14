@@ -72,12 +72,20 @@ function DocumentCard({ document }) {
         </div>
         <h3 className="doc-title">{document.title || document.fileName}</h3>
         <p className="doc-desc">{document.description || ""}</p>
-        <div className="doc-open">
-          {document.previewPath ? "Open preview" : `Open original ${meta.label}`} →
+        <div className="doc-card-bottom">
+          <span className="doc-open">
+            {document.previewPath ? "Open preview" : `Open original ${meta.label}`} →
+          </span>
         </div>
       </a>
-      <a className="doc-download-original" href={`/${document.filePath}`} download={document.fileName} aria-label={`Download original ${document.title || document.fileName}`}>
-        Download original {meta.label}
+      <a
+        className="doc-download-original"
+        href={`/${document.filePath}`}
+        download={document.fileName}
+        onClick={(event) => event.stopPropagation()}
+        aria-label={`Download original ${document.title || document.fileName}`}
+      >
+        Download
       </a>
     </div>
   );
