@@ -43,6 +43,17 @@
     "previewPath": "previews/sepsis/Neonatal Sepsis by MESFIN.pdf"
   },
   {
+    "id": "osce-respa",
+    "fileName": "OSCE Respiratory .pptx",
+    "title": "Respa",
+    "description": "OSCE",
+    "category": "OSCE",
+    "filePath": "documents/osce-respa/OSCE Respiratory .pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-15",
+    "previewPath": "documents/osce-respa/OSCE Respiratory .pdf"
+  },
+  {
     "id": "pna",
     "fileName": "PNA.pptx",
     "title": "PNA",
@@ -161,5 +172,146 @@
     "fileType": "pptx",
     "dateAdded": "2026-09-13",
     "previewPath": "documents/acquired-heart-disease-anemia/13 Acquired heart diseases August 2024.pdf"
+  },
+  {
+    "id": "physical-examination",
+    "fileName": "Physical examination for  C1(pedi).pptx",
+    "title": "Physical examination",
+    "description": "Dr Achalu",
+    "category": "Other",
+    "filePath": "documents/physical-examination/Physical examination for  C1(pedi).pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-15"
+  },
+  {
+    "id": "problems-of-prematurity",
+    "fileName": "PROBLEMS OF PREMATURITY.pptx",
+    "title": "Problems of prematurity",
+    "description": "Prematurity\nLBW\nRDS\nHypoglycemia\nApnea of prematurity\nNEC",
+    "category": "NICU",
+    "filePath": "documents/problems-of-prematurity/PROBLEMS OF PREMATURITY.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-15",
+    "previewPath": "documents/problems-of-prematurity/PROBLEMS OF PREMATURITY.pdf"
+  },
+  {
+    "id": "osce-cvs",
+    "fileName": "OSCE CVS.pptx",
+    "title": "CVS",
+    "description": "OSCE",
+    "category": "OSCE",
+    "filePath": "documents/osce-cvs/OSCE CVS.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-15",
+    "previewPath": "documents/osce-cvs/OSCE CVS.pdf"
+  },
+  {
+    "id": "nutrition",
+    "fileName": "OSCE Nutrition.pptx",
+    "title": "Nutrition",
+    "description": "OSCE",
+    "category": "OSCE",
+    "filePath": "documents/nutrition/OSCE Nutrition.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-15",
+    "previewPath": "documents/nutrition/OSCE Nutrition.pdf"
+  },
+  {
+    "id": "hematology",
+    "fileName": "OSCE Hematology .pptx",
+    "title": "Hematology",
+    "description": "OSCE",
+    "category": "OSCE",
+    "filePath": "documents/hematology/OSCE Hematology .pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-15",
+    "previewPath": "documents/hematology/OSCE Hematology .pdf"
+  },
+  {
+    "id": "skin",
+    "fileName": "OSCE Skin .pptx",
+    "title": "Skin",
+    "description": "OSCE",
+    "category": "OSCE",
+    "filePath": "documents/skin/OSCE Skin .pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-15",
+    "previewPath": "documents/skin/OSCE Skin .pdf"
+  },
+  {
+    "id": "dermatology",
+    "fileName": "OSCE Dermatology.pptx",
+    "title": "Dermatology",
+    "description": "OSCE",
+    "category": "OSCE",
+    "filePath": "documents/dermatology/OSCE Dermatology.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-15",
+    "previewPath": "documents/dermatology/OSCE Dermatology.pdf"
+  },
+  {
+    "id": "neonatology",
+    "fileName": "OSCE Neonatology.pptx",
+    "title": "Neonatology",
+    "description": "OSCE",
+    "category": "OSCE",
+    "filePath": "documents/neonatology/OSCE Neonatology.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-15",
+    "previewPath": "documents/neonatology/OSCE Neonatology.pdf"
+  },
+  {
+    "id": "rheumatology",
+    "fileName": "OSCE Rheumatology.pptx",
+    "title": "Rheumatology",
+    "description": "OSCE",
+    "category": "OSCE",
+    "filePath": "documents/rheumatology/OSCE Rheumatology.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-15",
+    "previewPath": "documents/rheumatology/OSCE Rheumatology.pdf"
+  },
+  {
+    "id": "emergency",
+    "fileName": "OSCE Emergency.pptx",
+    "title": "Emergency",
+    "description": "OSCE",
+    "category": "OSCE",
+    "filePath": "documents/emergency/OSCE Emergency.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-15",
+    "previewPath": "documents/emergency/OSCE Emergency.pdf"
+  },
+  {
+    "id": "chromosomal",
+    "fileName": "OSCE Chromosomal .pptx",
+    "title": "Chromosomal",
+    "description": "OSCE",
+    "category": "OSCE",
+    "filePath": "documents/chromosomal/OSCE Chromosomal .pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-15",
+    "previewPath": "documents/chromosomal/OSCE Chromosomal .pdf"
+  },
+  {
+    "id": "endocrine",
+    "fileName": "OSCE Endocrine.pptx",
+    "title": "Endocrine",
+    "description": "OSCE",
+    "category": "OSCE",
+    "filePath": "documents/endocrine/OSCE Endocrine.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-15",
+    "previewPath": "documents/endocrine/OSCE Endocrine.pdf"
+  },
+  {
+    "id": "slowly-resolving-pneumonia",
+    "fileName": "Slowly Resolving Pneumonia.pdf",
+    "title": "SLOWLY RESOLVING PNEUMONIA",
+    "description": "Pneumonia(short)",
+    "category": "ER OPD & WARD",
+    "filePath": "documents/slowly-resolving-pneumonia/Slowly Resolving Pneumonia.pdf",
+    "fileType": "pdf",
+    "dateAdded": "2026-09-15"
   }
 ]

@@ -78,7 +78,7 @@ function DocumentCard({ document }) {
           </span>
         </div>
       </a>
-      
+      <a
         className="doc-download-original"
         href={`/${document.filePath}`}
         download={document.fileName}
