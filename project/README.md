@@ -1,6 +1,26 @@
 # Medical Document Library
 
-A lightweight medical reference library for storing, browsing, previewing, and downloading clinical and educational materials such as PDFs and presentation decks. The project is designed for quick local use, after deployed for public and supports a clean category-based document experience for studying and review.
+A lightweight medical reference library for storing, browsing, previewing, and
+downloading clinical and educational materials such as PDFs and presentation
+decks. The project supports both local development and public deployment, with
+a clean category-based experience for studying and review.
+
+## Application layout
+
+The landing page organizes clinical-year resources by department or specialty,
+including Pediatrics, OBS / GYNE, Surgery, and Internal Medicine.
+
+<p align="center">
+  <img
+    src="./docs/clinical-year-files-layout.png"
+    alt="Clinical Year Files application layout"
+    width="880"
+  />
+</p>
+
+The department cards provide an entry point to each document collection. The
+library view then groups available files by topic and allows users to search,
+preview, or download the original document.
 
 ## Overview
 
