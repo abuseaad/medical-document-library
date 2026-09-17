@@ -1,0 +1,23 @@
+{
+  "name": "medical-document-library",
+  "version": "1.0.0",
+  "description": "Local medical study document library (PDF/PPT/PPTX) with a JSON metadata database.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "add-doc": "node scripts/add-document.js",
+    "rebuild-previews": "node scripts/rebuild-previews.js",
+    "fix-previews": "node scripts/backfill-previews.cjs"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  }
+}
