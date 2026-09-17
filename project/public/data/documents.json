@@ -313,5 +313,15 @@
     "filePath": "documents/slowly-resolving-pneumonia/Slowly Resolving Pneumonia.pdf",
     "fileType": "pdf",
     "dateAdded": "2026-09-15"
+  },
+  {
+    "id": "yonas",
+    "fileName": "Yonas Pediatrics II.pdf",
+    "title": "YONAS",
+    "description": "A QUICK REVISSION ON \n Commmon short cases\n and\n Procedures in pediatrics",
+    "category": "Other",
+    "filePath": "documents/yonas/Yonas Pediatrics II.pdf",
+    "fileType": "pdf",
+    "dateAdded": "2026-09-17"
   }
 ]

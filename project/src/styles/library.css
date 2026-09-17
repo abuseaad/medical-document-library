@@ -147,8 +147,8 @@ body {
 
 .doc-desc {
   margin: 0;
-  font-size: 13px;
-  color: var(--lib-text-dim);
+  font-size: 10px;
+  color: var(--search-accent);
   line-height: 1.5;
   flex: 1;
     white-space: pre-line;
