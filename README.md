@@ -10,13 +10,6 @@ a clean category-based experience for studying and review.
 The landing page organizes clinical-year resources by department or specialty,
 including Pediatrics, OBS / GYNE, Surgery, and Internal Medicine.
 
-<p align="center">
-  <img
-    src="./docs/clinical-year-files-layout.png"
-    alt="Clinical Year Files application layout"
-    width="880"
-  />
-</p>
 
 The department cards provide an entry point to each document collection. The
 library view then groups available files by topic and allows users to search,

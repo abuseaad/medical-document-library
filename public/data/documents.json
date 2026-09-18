@@ -323,5 +323,37 @@
     "filePath": "documents/yonas/Yonas Pediatrics II.pdf",
     "fileType": "pdf",
     "dateAdded": "2026-09-17"
+  },
+  {
+    "id": "vitamin-d-deficiency-and-rickets",
+    "fileName": "Vitamin_D_Deficiency_Rickets_Summary.pdf",
+    "title": "vitamin D deficiency and rickets",
+    "description": "VitD  \nRickets",
+    "category": "Other",
+    "filePath": "documents/vitamin-d-deficiency-and-rickets/Vitamin_D_Deficiency_Rickets_Summary.pdf",
+    "fileType": "pdf",
+    "dateAdded": "2026-09-17"
+  },
+  {
+    "id": "prescription",
+    "fileName": "SEMINAR C2 new (2) - Copy (1).pptx",
+    "title": "Prescription",
+    "description": "seminor",
+    "category": "Other",
+    "filePath": "documents/prescription/SEMINAR C2 new (2) - Copy (1).pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-17",
+    "previewPath": "previews/prescription/SEMINAR C2 new (2) - Copy (1).pdf"
+  },
+  {
+    "id": "jaundice-2",
+    "fileName": "Neonatal Jaundice  by MESFIN-1.pptx",
+    "title": "Jaundice",
+    "description": "Dr Mesfin",
+    "category": "NICU",
+    "filePath": "documents/jaundice-2/Neonatal Jaundice  by MESFIN-1.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-17",
+    "previewPath": "documents/jaundice-2/Neonatal Jaundice  by MESFIN-1.pdf"
   }
 ]
