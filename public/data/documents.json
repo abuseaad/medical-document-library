@@ -355,5 +355,26 @@
     "fileType": "pptx",
     "dateAdded": "2026-09-17",
     "previewPath": "documents/jaundice-2/Neonatal Jaundice  by MESFIN-1.pdf"
+  },
+  {
+    "id": "immunization",
+    "fileName": "Immunization by CI (2)OUR.pdf",
+    "title": "Immunization",
+    "description": "seminor",
+    "category": "Other",
+    "filePath": "documents/immunization/Immunization by CI (2)OUR.pdf",
+    "fileType": "pdf",
+    "dateAdded": "2026-09-18"
+  },
+  {
+    "id": "childhood-rheumatic-diseases",
+    "fileName": "CHILDHOOD RHEUMATIC DISEASES editted.pptx",
+    "title": "Childhood Rheumatic Diseases",
+    "description": "RHEUMATIC DISEASES",
+    "category": "ER OPD & WARD",
+    "filePath": "documents/childhood-rheumatic-diseases/CHILDHOOD RHEUMATIC DISEASES editted.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-19",
+    "previewPath": "documents/childhood-rheumatic-diseases/CHILDHOOD RHEUMATIC DISEASES editted.pdf"
   }
 ]
