@@ -16,6 +16,9 @@
   --lib-accent: #4f8cff;
   --lib-accent-dim: #2c4a86;
   --lib-radius: 10px;
+  --lib-accent-dim-blue: #2c4a86;
+  --lib-accent-dim-amber: #94531a;
+  --lib-accent-dim-green: #225c34;
     --search-accent: #34d399; /* change this hex to whatever you want */
 }
 
@@ -111,7 +114,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  background: var(--lib-panel);
+  background: var(--lib-accent-dim-amber);
   border: 1px solid var(--lib-border);
   border-radius: var(--lib-radius);
   padding: 12px 14px;
@@ -188,9 +191,9 @@ body {
 }
 .doc-status-dot:hover { transform: scale(1.2); }
 .doc-status-dot.doc-status-none { background: var(--lib-border); }
-.doc-status-dot.doc-status-today { background: #facc15; }
-.doc-status-dot.doc-status-read { background: #34d399; }
-.doc-status-dot.doc-status-urgent { background: #fb7185; }
+.doc-status-dot.doc-status-today { background:red; }
+.doc-status-dot.doc-status-read { background:var(--lib-accent-dim-green); }
+.doc-status-dot.doc-status-urgent { background: var(--lib-accent-dim-amber); }
 
 .doc-card.doc-card-status-today {
   background: linear-gradient(0deg, rgba(250, 204, 21, 0.10), rgba(250, 204, 21, 0.10)), var(--lib-panel);

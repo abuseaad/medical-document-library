@@ -376,5 +376,15 @@
     "fileType": "pptx",
     "dateAdded": "2026-09-19",
     "previewPath": "documents/childhood-rheumatic-diseases/CHILDHOOD RHEUMATIC DISEASES editted.pdf"
+  },
+  {
+    "id": "vit-d-uptodate",
+    "fileName": "Vitamin_D_insufficiency_and_deficiency_in_children_and_adolescents.pdf",
+    "title": "vit D! Uptodate",
+    "description": "vitD uptodate",
+    "category": "Other",
+    "filePath": "documents/vit-d-uptodate/Vitamin_D_insufficiency_and_deficiency_in_children_and_adolescents.pdf",
+    "fileType": "pdf",
+    "dateAdded": "2026-09-19"
   }
 ]
