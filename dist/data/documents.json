@@ -3,7 +3,7 @@
     "id": "nicu-case",
     "fileName": "3.1 NEONATAL RESP.DISTRESS.  B.pptx",
     "title": "NICU case",
-    "description": "RDS MAS TTN",
+    "description": "pulmonary hemorrhage \nPulmonary air leak, PPHN ",
     "category": "NICU",
     "filePath": "documents/nicu-case/3.1 NEONATAL RESP.DISTRESS.  B.pptx",
     "fileType": "pptx",
@@ -386,5 +386,27 @@
     "filePath": "documents/vit-d-uptodate/Vitamin_D_insufficiency_and_deficiency_in_children_and_adolescents.pdf",
     "fileType": "pdf",
     "dateAdded": "2026-09-19"
+  },
+  {
+    "id": "ttn",
+    "fileName": "neonatal respirotory distrase A.pptx",
+    "title": "TTN",
+    "description": "TTN RDS MAS",
+    "category": "NICU",
+    "filePath": "documents/ttn/neonatal respirotory distrase A.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-21",
+    "previewPath": "documents/ttn/neonatal respirotory distrase A.pdf"
+  },
+  {
+    "id": "urti",
+    "fileName": "UPPER RESPIRATORY TRACT INFECTION (URTI).pptx",
+    "title": "URTI",
+    "description": "common cold  sinusitis pharyngitis ear infection Epiglottiti Laryngitis",
+    "category": "ER OPD & WARD",
+    "filePath": "documents/urti/UPPER RESPIRATORY TRACT INFECTION (URTI).pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-21",
+    "previewPath": "documents/urti/UPPER RESPIRATORY TRACT INFECTION (URTI).pdf"
   }
 ]
