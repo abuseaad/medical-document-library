@@ -225,8 +225,8 @@ async function main() {
     let title = await rl.question("Title (shown on the card): ");
     title = title.trim() || originalFileName;
 
-    let description = await rl.question("Short description: ");
-    description = description.trim();
+   let description = await rl.question("Short description: ");
+description = description.trim().replace(/\\n/g, "\n");
 
     const existing = loadDb();
     const knownCategories = [...new Set(existing.map((d) => d.category).filter(Boolean))];

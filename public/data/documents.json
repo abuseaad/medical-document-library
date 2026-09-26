@@ -408,5 +408,46 @@
     "fileType": "pptx",
     "dateAdded": "2026-09-21",
     "previewPath": "documents/urti/UPPER RESPIRATORY TRACT INFECTION (URTI).pdf"
+  },
+  {
+    "id": "duke-criteria",
+    "fileName": "-2023-Duke-Criteria-for-Infective-Endocarditis-.pdf",
+    "title": "Duke-Criteria",
+    "description": "IE",
+    "category": "ER OPD & WARD",
+    "filePath": "documents/duke-criteria/-2023-Duke-Criteria-for-Infective-Endocarditis-.pdf",
+    "fileType": "pdf",
+    "dateAdded": "2026-09-22"
+  },
+  {
+    "id": "acute-febrile-illness",
+    "fileName": "12 Acute febrile illness in Pediatrics @2024.pptx",
+    "title": "Acute Febrile illness",
+    "description": "malaria, Typhoid Fever\nRelapsing Fever, Endemiic Typhos\nschistoomiais,   Leishmaniasis",
+    "category": "ER OPD & WARD",
+    "filePath": "documents/acute-febrile-illness/12 Acute febrile illness in Pediatrics @2024.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-23",
+    "previewPath": "documents/acute-febrile-illness/12 Acute febrile illness in Pediatrics @2024.pdf"
+  },
+  {
+    "id": "down-syndrome-2",
+    "fileName": "Chromosomal_Disorders_MedStar_Pediatrics.pdf",
+    "title": "Down syndrome",
+    "description": "DS",
+    "category": "Other",
+    "filePath": "documents/down-syndrome-2/Chromosomal_Disorders_MedStar_Pediatrics.pdf",
+    "fileType": "pdf",
+    "dateAdded": "2026-09-23"
+  },
+  {
+    "id": "anemia",
+    "fileName": "Anemias in Children for C1 August 2024.pptx",
+    "title": "Anemia",
+    "description": "Anemia",
+    "category": "ER OPD & WARD",
+    "filePath": "documents/anemia/Anemias in Children for C1 August 2024.pptx",
+    "fileType": "pptx",
+    "dateAdded": "2026-09-23"
   }
 ]
