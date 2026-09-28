@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import DocumentCard from "./components/DocumentCard";
 import Landing from "./components/Landing";
-import ComingSoon from "./components/ComingSoon";
 import SiteHeader from "./components/SiteHeader";
 import SiteFooter from "./components/SiteFooter";
 
@@ -29,6 +28,7 @@ function groupByCategory(documents) {
 }
 
 const DEPARTMENT_LABELS = {
+  pediatrics: "Pediatrics",
   obsgyne: "OBS / GYNE",
   surgery: "Surgery",
   "internal-medicine": "Internal Medicine",
@@ -52,44 +52,38 @@ function App() {
       });
   }, []);
 
+  const departmentDocuments = useMemo(() => {
+    if (view === "landing") return [];
+    return documents.filter((document) => (document.department || "pediatrics") === view);
+  }, [documents, view]);
+
   const filteredDocuments = useMemo(() => {
     const term = searchTerm.trim().toLowerCase();
-    if (!term) return documents;
-    return documents.filter((document) =>
+    if (!term) return departmentDocuments;
+    return departmentDocuments.filter((document) =>
       [document.title, document.category, document.description].some((value) =>
         (value || "").toLowerCase().includes(term),
       ),
     );
-  }, [documents, searchTerm]);
+  }, [departmentDocuments, searchTerm]);
 
   let content;
 
-   if (view === "landing") {
-    content = (
-      <>
-        <SiteHeader />
-        <Landing onSelect={setView} />
-        <SiteFooter />
-      </>
-    );
-  } else if (view !== "pediatrics") {
-    content = (
-      <ComingSoon
-        department={DEPARTMENT_LABELS[view] || view}
-        onBack={() => setView("landing")}
-      />
-    );
+  if (view === "landing") {
+    content = <Landing onSelect={setView} />;
   } else {
+    const label = DEPARTMENT_LABELS[view] || view;
     content = (
       <>
         <header className="library-hero">
           <button className="back-link" onClick={() => setView("landing")}>
             ← Back
           </button>
-          <h1>Pediatrics</h1>
-     <p className="doc-instructions">
-  Tap a card to open and read the file, or use "Download original" to save it.
-</p>
+          <h1>{label}</h1>
+          <p>
+            Original PDFs and PowerPoint files, organized by topic. Click any
+            document to open the original file.
+          </p>
         </header>
         <div className="library-toolbar">
           <input
@@ -102,7 +96,10 @@ function App() {
         </div>
         {error && <div className="library-status">{error}</div>}
         <main id="library">
-          {!error && documents.length > 0 && filteredDocuments.length === 0 && (
+          {!error && departmentDocuments.length === 0 && (
+            <p className="empty-state">No documents in {label} yet — check back soon.</p>
+          )}
+          {!error && departmentDocuments.length > 0 && filteredDocuments.length === 0 && (
             <p className="empty-state">No documents match your search.</p>
           )}
           {groupByCategory(filteredDocuments).map((group) => (
@@ -130,10 +127,13 @@ function App() {
     );
   }
 
-   return (
+  return (
     <div className="site-shell">
+      <SiteHeader />
       <div className="site-content">{content}</div>
+      <SiteFooter />
     </div>
   );
 }
+
 export default App;
