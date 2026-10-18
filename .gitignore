@@ -5,3 +5,6 @@ dist/
 build/
 .~lock.*
 public/documents/practical-obgyn-notes/Practical OBGYN Notes - Bookmarked.pdf
+
+public/documents/
+public/previews/
