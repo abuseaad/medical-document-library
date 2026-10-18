@@ -1201,5 +1201,17 @@
     "previewPath": "documents/aph/APH  Dr. Biruk lulseged.pdf",
     "fileType": "pdf",
     "dateAdded": "2026-10-18"
+  },
+  {
+    "id": "obstructed-labor",
+    "fileName": "obstructed labor.pptx",
+    "title": "Obstructed labor",
+    "description": "OL",
+    "category": "OBS",
+    "department": "obsgyne",
+    "filePath": "documents/obstructed-labor/obstructed labor.pptx",
+    "previewPath": "previews/obstructed-labor/obstructed labor.pdf",
+    "fileType": "pptx",
+    "dateAdded": "2026-10-18"
   }
 ]
