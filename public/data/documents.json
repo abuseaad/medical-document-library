@@ -1189,5 +1189,17 @@
     "previewPath": "previews/iugr/IUGR & IUFD.pdf",
     "fileType": "pptx",
     "dateAdded": "2026-10-18"
+  },
+  {
+    "id": "aph",
+    "fileName": "APH  Dr. Biruk lulseged.pdf",
+    "title": "APH",
+    "description": "Dr Biruk",
+    "category": "OBS",
+    "department": "obsgyne",
+    "filePath": "documents/aph/APH  Dr. Biruk lulseged.pdf",
+    "previewPath": "documents/aph/APH  Dr. Biruk lulseged.pdf",
+    "fileType": "pdf",
+    "dateAdded": "2026-10-18"
   }
 ]
