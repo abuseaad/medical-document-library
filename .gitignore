@@ -1,3 +1,7 @@
 node_modules/
 .vscode/
 dist/
+
+build/
+.~lock.*
+public/documents/practical-obgyn-notes/Practical OBGYN Notes - Bookmarked.pdf
