@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Generate document previews",
+			"type": "shell",
+			"command": "npm run fix-previews",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

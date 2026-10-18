@@ -5,7 +5,7 @@
  *
  * Usage:
  *   npm run add-doc
- *     -> prompts for file path, title, description, category, department
+ *     -> prompts for file path, title, description, department, category
  *
  *   npm run add-doc -- "C:\path\to\my-file.pdf"
  *     -> file path is already known; only prompts for the rest
@@ -250,12 +250,8 @@ async function main() {
     description = description.trim().replace(/\\n/g, "\n");
 
     const existing = loadDb();
-    const knownCategories = [...new Set(existing.map((d) => d.category).filter(Boolean))];
-    if (knownCategories.length) {
-      console.log("\nExisting categories: " + knownCategories.join(", "));
-    }
-    const category = (await rl.question("Category / topic (e.g. Sepsis, Shock, NICU): ")).trim() || "Uncategorized";
 
+    // --- Department first ---
     console.log("\nWhich department does this belong to?");
     DEPARTMENTS.forEach((d, i) => console.log(`  ${i + 1}. ${d.label}`));
     const deptAnswer = (await rl.question(`Enter a number (1-${DEPARTMENTS.length}, default 1 = Pediatrics): `)).trim();
@@ -264,6 +260,22 @@ async function main() {
       deptIndex = 0;
     }
     const department = DEPARTMENTS[deptIndex].id;
+
+    // --- Category second, hint filtered to THIS department only ---
+    const categoriesInThisDept = [
+      ...new Set(
+        existing
+          .filter((d) => (d.department || "pediatrics") === department)
+          .map((d) => d.category)
+          .filter(Boolean)
+      ),
+    ];
+    if (categoriesInThisDept.length) {
+      console.log(`\nExisting categories in ${DEPARTMENTS[deptIndex].label}: ` + categoriesInThisDept.join(", "));
+    } else {
+      console.log(`\nNo categories yet in ${DEPARTMENTS[deptIndex].label} — this will be the first one.`);
+    }
+    const category = (await rl.question("Category / topic (e.g. Sepsis, Shock, NICU): ")).trim() || "Uncategorized";
 
     const slug = uniqueSlug(slugify(title));
     targetDir = path.join(DOCS_DIR, slug);
