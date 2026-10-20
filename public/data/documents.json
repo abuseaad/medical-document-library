@@ -1213,5 +1213,29 @@
     "previewPath": "previews/obstructed-labor/obstructed labor.pdf",
     "fileType": "pptx",
     "dateAdded": "2026-10-18"
+  },
+  {
+    "id": "ai-generated-morning-topics",
+    "fileName": "High_Yield_Obstetrics_2026_Study_Guide.pdf",
+    "title": "AI generated morning topics",
+    "description": "By Jerminjan",
+    "category": "AI",
+    "department": "obsgyne",
+    "filePath": "documents/ai-generated-morning-topics/High_Yield_Obstetrics_2026_Study_Guide.pdf",
+    "previewPath": "documents/ai-generated-morning-topics/High_Yield_Obstetrics_2026_Study_Guide.pdf",
+    "fileType": "pdf",
+    "dateAdded": "2026-10-20"
+  },
+  {
+    "id": "ai-gnerarted-morning-discussions",
+    "fileName": "Obstetrics_and_Gynecology_Comprehensive_Clinical_Reference_Guide (1).pdf",
+    "title": "AI gnerarted Morning discussions",
+    "description": "PPH \nDystocia \npartograph \nFHR BPP \n DM \noligohydraminos MAS ripening \n placenta twiin \n multifetal placenta \n postpartum",
+    "category": "AI",
+    "department": "obsgyne",
+    "filePath": "documents/ai-gnerarted-morning-discussions/Obstetrics_and_Gynecology_Comprehensive_Clinical_Reference_Guide (1).pdf",
+    "previewPath": "documents/ai-gnerarted-morning-discussions/Obstetrics_and_Gynecology_Comprehensive_Clinical_Reference_Guide (1).pdf",
+    "fileType": "pdf",
+    "dateAdded": "2026-10-20"
   }
 ]
