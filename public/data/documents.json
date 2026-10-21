@@ -1237,5 +1237,17 @@
     "previewPath": "documents/ai-gnerarted-morning-discussions/Obstetrics_and_Gynecology_Comprehensive_Clinical_Reference_Guide (1).pdf",
     "fileType": "pdf",
     "dateAdded": "2026-10-20"
+  },
+  {
+    "id": "best-morning-topics",
+    "fileName": "COMPLETE_OBSTETRIC_GUIDE_ALL_16_SECTIONS (1).pdf",
+    "title": "Best morning topics",
+    "description": "Mornig by DR Adam",
+    "category": "AI",
+    "department": "obsgyne",
+    "filePath": "documents/best-morning-topics/COMPLETE_OBSTETRIC_GUIDE_ALL_16_SECTIONS (1).pdf",
+    "previewPath": "documents/best-morning-topics/COMPLETE_OBSTETRIC_GUIDE_ALL_16_SECTIONS (1).pdf",
+    "fileType": "pdf",
+    "dateAdded": "2026-10-21"
   }
 ]
