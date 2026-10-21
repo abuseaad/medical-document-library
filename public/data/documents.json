@@ -1249,5 +1249,17 @@
     "previewPath": "documents/best-morning-topics/COMPLETE_OBSTETRIC_GUIDE_ALL_16_SECTIONS (1).pdf",
     "fileType": "pdf",
     "dateAdded": "2026-10-21"
+  },
+  {
+    "id": "morning-discussions-wk4",
+    "fileName": "Practical_OB_GYN_Study_Guide_Colour.pdf",
+    "title": "Morning discussions(wk4)",
+    "description": "Dr Adem",
+    "category": "AI",
+    "department": "obsgyne",
+    "filePath": "documents/morning-discussions-wk4/Practical_OB_GYN_Study_Guide_Colour.pdf",
+    "previewPath": "documents/morning-discussions-wk4/Practical_OB_GYN_Study_Guide_Colour.pdf",
+    "fileType": "pdf",
+    "dateAdded": "2026-10-21"
   }
 ]
